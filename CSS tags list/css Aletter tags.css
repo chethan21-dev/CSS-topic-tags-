@@ -1,0 +1,71 @@
+1. CSS accent-color property - 
+The accent-color property specifies the accent color for user-interface controls like: <input type="checkbox">, <input type="radio">, <input type="range"> and <progress>.
+Syntax : accent-color: auto|color|initial|inherit;
+
+2. CSS align-content Property - 
+A. The align-content property specifies how flex lines are distributed along the cross axis in a flexbox container.
+B. The align-content property can also be used on a grid container to align grid items in the block direction. For pages in English, block direction is downward and inline direction is left to right.
+Syntax : align-content: stretch|center|flex-start|flex-end|space-between|space-around|space-evenly|initial|inherit;
+
+3. CSS align-items Property - 
+A. The align-items property specifies the default alignment for items inside a flexbox or grid container.
+B. Use the align-self property of each item to override the align-items property.
+Syntax : align-items: normal|stretch|positional alignment|flex-start|flex-end|baseline|initial|inherit;
+
+4. CSS align-self Property - 
+A. The align-self property specifies the alignment in the block direction for the selected item inside a flexbox or grid container.
+B. To align a grid item in the inline direction instead of the block direction, use justify-self or justify-items properties.
+C. The align-self property overrides the grid or flexible container's align-items property.
+Syntax : align-self: auto|stretch|center|flex-start|flex-end|baseline|initial|inherit;
+
+5. CSS all Property - 
+The all property resets all properties, apart from unicode-bidi and direction, to their initial or inherited value.
+Syntax : all: initial|inherit|unset;
+
+6. CSS animation Property -
+A. The animation shorthand CSS property applies an animation between styles. 
+B. It is a shorthand for animation-name , animation-duration , animation-timing-function , animation-delay , animation-iteration-count , animation-direction , animation-fill-mode , animation-play-state , and animation-timeline
+Syntax : animation: name duration timing-function delay iteration-count direction fill-mode play-state;
+
+7. CSS animation-delay Property - 
+A. The animation-delay property specifies a delay for the start of an animation.
+B. The animation-delay value is defined in seconds (s) or milliseconds (ms).
+Syntax : animation-delay: time|initial|inherit;
+
+8. CSS animation-direction Property - 
+The animation-direction property defines whether an animation should be played forwards, backwards or in alternate cycles.
+Syntax : animation-direction: normal|reverse|alternate|alternate-reverse|initial|inherit;
+
+9. CSS animation-duration Property - 
+The animation-duration property defines how long an animation should take to complete one cycle.
+Syntax : animation-duration: time|initial|inherit;
+
+10. CSS animation-fill-mode Property - 
+A. The animation-fill-mode property specifies a style for the element when the animation is not playing (before it starts, after it ends, or both).
+B. CSS animations do not affect the element before the first keyframe is played or after the last keyframe is played. The animation-fill-mode property can override this behavior. 
+Syntax : animation-fill-mode: none|forwards|backwards|both|initial|inherit;
+
+11. CSS animation-iteration-count Property - 
+The animation-iteration-count property specifies the number of times an animation should be played.
+Syntax : animation-iteration-count: number|infinite|initial|inherit;
+
+12. CSS animation-name Property - 
+The animation-name property specifies a name for the @keyframes animation.
+Syntax : animation-name: keyframename|none|initial|inherit;
+
+13. CSS animation-play-state Property - 
+A. The animation-play-state property specifies whether the animation is running or paused.
+B. Use this property in a JavaScript to pause an animation in the middle of a cycle.
+Syntax : animation-play-state: paused|running|initial|inherit;
+
+14. CSS animation-timing-function Property - 
+A. The animation-timing-function specifies the speed curve of an animation.
+B. The speed curve defines the TIME an animation uses to change from one set of CSS styles to another.
+C. The speed curve is used to make the changes smoothly.
+Syntax : animation-timing-function: linear|ease|ease-in|ease-out|ease-in-out|step-start|step-end|steps(int,start|end)|cubic-bezier(n,n,n,n)|initial|inherit;
+
+15. CSS aspect-ratio Property  - 
+A. The aspect-ratio property allows you to define the ratio between width and height of an element.
+B. If aspect-ratio and width properties are set, the height will follow in the defined aspect ratio.
+C. Use the aspect-ratio property in responsive layouts where elements often vary in size and you want to preserve the ratio between width and height.
+Syntax : aspect-ratio: number/number|initial|inherit; 
